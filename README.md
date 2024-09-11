@@ -35,21 +35,22 @@ These instructions will help you set up and run the project on your local machin
    ```bash
    git clone https://github.com/your-username/school-reports.git
    cd school-reports
+   
 // db.php
-   ```bash
-   <?php
-   $servername = "localhost";
-   $username = "root";
-   $password = "";
-   $dbname = "school_management";
+   
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "school_management";
 
-   $conn = new mysqli($servername, $username, $password, $dbname);
+$conn = new mysqli($servername, $username, $password, $dbname);
 
-   if ($conn->connect_error) {
-      die("Connection failed: " . $conn->connect_error);
-   }
-   ?>
-
+if ($conn->connect_error) {
+   die("Connection failed: " . $conn->connect_error);
+}
+?>
+   
 
 
 Running the Application
@@ -64,19 +65,7 @@ Open your browser and navigate to:
 Attendance Report: http://localhost/school_reports/attendance_report.php
 Fees Due Report: http://localhost/school_reports/fees_due_report.php
 Students List: http://localhost/school_reports/students_list.php
-Screenshots
-Below are some screenshots to help you understand the interface and output of the application:
-
-Attendance Report:
-
-
-Fees Due Report:
-
-
-Students List:
-
 
 Usage
 The application provides reports based on data from the MySQL database.
 Make sure to populate the database tables (students, attendance, fees) with sample data to see the reports in action.
-Contributing
