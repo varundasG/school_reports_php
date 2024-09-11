@@ -50,14 +50,32 @@ if ($conn->connect_error) {
 ?>
 
 
-### Steps to Add and Push the README with Images
 
-1. **Add the Screenshots to Your Project:**
-   - Place your screenshots in the `screenshots` folder inside your project directory.
+Running the Application
+Start Your Web Server:
 
-2. **Commit and Push the Changes:**
+Ensure that your Apache and MySQL services are running (if using XAMPP, WAMP, or MAMP).
 
-   ```bash
-   git add README.md screenshots/
-   git commit -m "Add README with embedded screenshots"
-   git push
+Access the Reports:
+
+Open your browser and navigate to:
+
+Attendance Report: http://localhost/school_reports/attendance_report.php
+Fees Due Report: http://localhost/school_reports/fees_due_report.php
+Students List: http://localhost/school_reports/students_list.php
+Screenshots
+Below are some screenshots to help you understand the interface and output of the application:
+
+Attendance Report:
+
+
+Fees Due Report:
+
+
+Students List:
+
+
+Usage
+The application provides reports based on data from the MySQL database.
+Make sure to populate the database tables (students, attendance, fees) with sample data to see the reports in action.
+Contributing
