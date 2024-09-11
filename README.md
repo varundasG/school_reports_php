@@ -1,5 +1,10 @@
 # School Reports Project
 
+##screenshot
+![App Screenshot](/Screenshot_1.png)
+
+![App Screenshot](/Screenshot_1.png)
+
 This project is a PHP application designed to generate various student reports for an educational institution. It provides functionality for:
 
 - Students Attendance Report
@@ -8,8 +13,6 @@ This project is a PHP application designed to generate various student reports f
 
 ## Project Structure
 
-##screenshot
-![App Screenshot](/Screenshot_1.png)
 ## Getting Started
 
 These instructions will help you set up and run the project on your local machine.
