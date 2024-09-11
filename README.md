@@ -3,7 +3,9 @@
 ##screenshot
 ![App Screenshot](/Screenshot_1.png)
 
-![App Screenshot](/Screenshot_1.png)
+![App Screenshot](/Screenshot_2.png)
+
+![App Screenshot](/Screenshot_3.png)
 
 This project is a PHP application designed to generate various student reports for an educational institution. It provides functionality for:
 
